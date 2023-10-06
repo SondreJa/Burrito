@@ -81,7 +81,7 @@ __meta__ = {
 [node name="TextureRect" type="TextureRect" parent="Control/GlobalMenuButton"]
 modulate = Color( 1, 1, 1, 0.439216 )
 margin_top = 4.0
-margin_right = 25.0
+margin_right = 50.0
 margin_bottom = 29.0
 texture = ExtResource( 3 )
 __meta__ = {
