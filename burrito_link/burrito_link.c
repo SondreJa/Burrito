@@ -4,7 +4,7 @@
 #include <time.h>
 #include <stdint.h>
 #include <winsock2.h>
-#include <windows.h>
+#include <unistd.h>
 
 #include "linked_memory.h"
 
@@ -213,7 +213,7 @@ int connect_and_or_send() {
             break;
         }
         if (lm->uiTick == lastuitick) {
-            Sleep(0.1);
+            Sleep(150);
             continue;
         }
         lastuitick = lm->uiTick;
