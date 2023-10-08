@@ -213,7 +213,7 @@ int connect_and_or_send() {
             break;
         }
         if (lm->uiTick == lastuitick) {
-            Sleep(15);
+            Sleep(50);
             continue;
         }
         lastuitick = lm->uiTick;
